@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:title="About Ahmed Hamed"
+        android:icon="@drawable/about">
+
+    </item>
+    <item
+        android:id="@+id/comunicate"
+        android:title="Comunicate with me"
+        android:icon="@drawable/comunicate">
+
+    </item>
+    <item
+        android:id="@+id/work"
+        android:title="My works"
+        android:icon="@drawable/work">
+
+    </item>
+    <item
+        android:id="@+id/blog"
+        android:title="My Blogs"
+        android:icon="@drawable/blogs">
+
+    </item>
+</menu>
