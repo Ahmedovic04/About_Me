@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     //يقفل القائمة
+    //New App
     @SuppressLint("WrongConstant")
     private fun close()
     {
