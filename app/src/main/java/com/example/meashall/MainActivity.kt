@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
-      var item=   p0.title
+      val item=   p0.title
 
 
         when(item){
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     //يقفل القائمة
-    //New App
+    //New Apps
     @SuppressLint("WrongConstant")
     private fun close()
     {
