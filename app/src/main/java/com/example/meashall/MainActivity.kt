@@ -1,6 +1,7 @@
 package com.example.meashall
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         setSupportActionBar(toolbar)
         supportActionBar?.title="A H M E D"
         navigation.setNavigationItemSelectedListener(this)
@@ -28,13 +30,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     }
 
+
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
       val item=   p0.title
-
+        var about = Intent(this, About::class.java)
 
         when(item){
-            "about"-> Toast.makeText(this,"about",Toast.LENGTH_LONG).show()
-            "Comunicate with me"-> Toast.makeText(this,"comunicate",Toast.LENGTH_LONG).show()
+            "About Ahmed Hamed"-> startActivity(about)
+            "Comunicate with me"-> Toast.makeText(this,"work",Toast.LENGTH_LONG).show()
             "work"-> Toast.makeText(this,"work",Toast.LENGTH_LONG).show()
             "blog"-> Toast.makeText(this,"blog",Toast.LENGTH_LONG).show()
         }

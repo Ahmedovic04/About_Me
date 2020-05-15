@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About">
+    android:orientation="vertical"
+    tools:context=".About"
+    android:background="#fff8e6">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="219dp"
+        android:src="@drawable/mypicture">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmed Hamed"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginLeft="18dp">
+
+    </TextView>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am Ahmed Hamed Osman Ahmed,
+I am from Sudan, but I was born in
+the Kingdom of Saudi Arabia on:
+13/13/1996,I graduated from Jazan University from the College of Computer Science with excellent degree I still live here.
+I work as freelancer of graphic designer and  android application developer."
+        android:textSize="15dp"
+        android:layout_marginLeft="18dp">
+
+    </TextView>
+</LinearLayout>
