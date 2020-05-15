@@ -14,10 +14,7 @@
         android:paddingTop="10dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            app:srcCompat="@drawable/mypicc" />
+
 
         <TextView
             android:id="@+id/name"

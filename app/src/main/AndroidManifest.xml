@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Comunication"></activity>
+        <activity android:name=".Comunication"
+            android:label="@string/communication"
+            android:theme="@style/actionbar">
+
+        </activity>
         <activity
             android:name=".About"
             android:label="@string/about"
-            android:theme="@style/about"></activity>
+            android:theme="@style/actionbar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
